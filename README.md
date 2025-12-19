@@ -1,16 +1,15 @@
-# Hi 👋 I'm Abdul Qadir Bearingwala
-
-🎓 B.Tech Computer Science & Engineering Student  
-💻 Web Developer | JavaScript | MERN (Learning)  
-🚀 Building real-world projects with clean UI and solid fundamentals  
+# Hi, I'm Abdul Qadir Bearingwala
+  
+- Web Developer | JavaScript | MERN  
+- Building real-world projects with clean UI and solid fundamentals  
 
 ---
 
 ## 🛠 Tech Stack
 
 *Languages:*  
-- C++, Python, JavaScript  
-- HTML, CSS  
+- C++, Python  
+- HTML, CSS, JavaScript
 - MySQL, MongoDB
 
 *Frameworks & Tools:*  
@@ -22,16 +21,6 @@
 ---
 
 ## 📌 Featured Projects
-
-### 🚦 Smart Queue Management System for Public Offices
-MERN Stack | Ongoing
-- Building a full-stack web application to streamline queue management in public offices
-- Implemented *token generation* and *real-time queue tracking*
-- Developed *RESTful APIs* using Express.js and MongoDB
-- Created a responsive *React-based dashboard* for administrators and visitors
-- Focused on reducing wait times and improving user experience
-
----
 
 ### 🌌 Space Explorer  
 *HTML | CSS | JavaScript | Bootstrap | NASA API*  
