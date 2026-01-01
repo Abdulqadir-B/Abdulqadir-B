@@ -35,10 +35,4 @@
 ---
 
 ## 📫 Connect With Me
-- 📧 Email: abdulqadir.bw.work@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/abdulqadir-bearingwala  
-- 🧑‍💻 GitHub: https://github.com/Abdulqadir-B
-
----
-
-⭐ Feel free to explore my repositories and projects!
+- 📧 Email: abdulqadir.bw.work@gmail.com 
