@@ -35,4 +35,4 @@
 ---
 
 ## 📫 Connect With Me
-- 📧 Email: abdulqadir.bw.work@gmail.com 
+- 📧 Email: abdulqadirworkstudio@gmail.com 
