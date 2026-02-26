@@ -1,38 +1,125 @@
-# Hi, I'm Abdul Qadir Bearingwala
-  
-- Web Developer | JavaScript | MERN  
-- Building real-world projects with clean UI and solid fundamentals  
+<div align="center">
 
----
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Abdul%20Qadir%20BearingWala&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Building%20thoughtful%20web%20experiences%20with%20clean%20code&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
 
-## 🛠 Tech Stack
+<!-- Typing Animation -->
 
-*Languages:*  
-- C++, Python  
-- HTML, CSS, JavaScript
-- MySQL, MongoDB
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=70&lines=Web+Developer+%7C+JavaScript+%7C+MERN+Stack;Turning+ideas+into+real-world+applications)](https://git.io/typing-svg)
 
-*Frameworks & Tools:*  
-- Node.js, Express.js  
-- Bootstrap, Tailwind CSS
-- Git & GitHub  
-- VS Code, Cursor  
+</div>
 
----
+<!-- About Section -->
 
-## 📌 Featured Projects
+## `> whoami`
 
-### 🌌 Space Explorer  
-*HTML | CSS | JavaScript | Bootstrap | NASA API*  
-🔗 Live Demo: https://spacelens.vercel.app
+```yaml
+name: Abdul Qadir Bearingwala
+role: Web Developer
+focus: Building real-world projects with clean UI & solid fundamentals
+```
 
-- Designed and developed a space exploration web app as a *solo project*
-- Integrated *NASA Open APIs* to fetch real-time space images and astronomy data
-- Implemented search and browsing functionality for celestial content
-- Built a fully responsive UI for desktop and mobile devices
-- Deployed the application on *Vercel*
+<br>
 
----
+<!-- Tech Stack -->
 
-## 📫 Connect With Me
-- 📧 Email: abdulqadirworkstudio@gmail.com 
+## Tech Stack
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=cpp,python,js&theme=dark" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react&theme=dark" />
+
+**Backend & Database**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" />
+
+**Tools & Platforms**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,nextjs,ts&theme=dark" />
+
+</div>
+
+<br>
+
+<!-- Featured Projects -->
+
+## Featured Projects
+
+<div align="center">
+
+<!-- ⭐ Hero Project -->
+<table>
+<tr>
+<td>
+
+### GitPulse: GitHub Analytics & Portfolio Platform
+
+**`Next.js 15` `TypeScript` `Tailwind CSS` `MongoDB` `NextAuth.js` `Recharts`**
+
+A full-stack GitHub analytics platform that helps developers showcase their work. Analyzes GitHub profiles to provide deep insights, scores repositories using an advanced algorithm based on best practices, and generates recruiter-friendly, shareable portfolios.
+
+**Highlights:**
+Interactive charts for languages, contributions & tech stack • Repo scoring on docs, testing & best practices • AI-generated resume-ready summaries • Shareable public portfolio pages • Admin dashboard with analytics • Smart rate limiting & optimization
+
+[**Live Demo >>**](https://gitpulse-dev.vercel.app)
+
+</td>
+</tr>
+</table>
+
+<!-- Other Projects -->
+<table>
+<tr>
+<td width="50%">
+
+### [Space Explorer](https://spacelens.vercel.app)
+
+**`HTML` `CSS` `JavaScript` `NASA API`**
+
+A web app for exploring space. Browse daily astronomy pictures, search NASA image archives, track near-Earth asteroids, and learn about space missions. Fully responsive and deployed on Vercel.
+
+[**Live Demo**](https://spacelens.vercel.app) · [**Repository**](https://github.com/Abdulqadir-B/space-explorer)
+
+</td>
+<td width="50%">
+
+### [Smart Queue System](https://github.com/Abdulqadir-B/smart-queue-system)
+
+**`JavaScript` `Node.js` `Express` `Socket.io`**
+
+A web-based app to eliminate physical queues. Customers join virtual queues remotely, track position in real-time, and get notified when their turn arrives. Built for hospitals, banks, and government offices.
+
+[**Repository**](https://github.com/Abdulqadir-B/smart-queue-system)
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<!-- GitHub Stats -->
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Abdulqadir-B&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=484F58" width="520" />
+
+</div>
+
+<br>
+
+<!-- Footer -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
+
+</div>
