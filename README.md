@@ -3,27 +3,13 @@
 <!-- Header Banner -->
 <img src="./assets/header.svg" width="100%" alt="Terminal: Abdul Qadir BearingWala - Web Developer" />
 
-<!-- Typing Animation -->
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=70&lines=Web+Developer+%7C+JavaScript+%7C+MERN+Stack;Turning+ideas+into+real-world+applications)](https://git.io/typing-svg)
-
 </div>
 
-<!-- About Section -->
-
-## `> whoami`
-
-```yaml
-name: Abdul Qadir Bearingwala
-role: Web Developer
-focus: Building real-world projects with clean UI & solid fundamentals
-```
-
-<br>
+---
 
 <!-- Tech Stack -->
 
-## Tech Stack
+## `$ ls tech-stack/`
 
 <div align="center">
 
@@ -33,7 +19,7 @@ focus: Building real-world projects with clean UI & solid fundamentals
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,nextjs&theme=dark" />
 
 **Backend & Database**
 
@@ -41,15 +27,17 @@ focus: Building real-world projects with clean UI & solid fundamentals
 
 **Tools & Platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,nextjs,ts&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel&theme=dark" />
 
 </div>
 
 <br>
 
+---
+
 <!-- Featured Projects -->
 
-## Featured Projects
+## `$ cat projects/`
 
 <div align="center">
 
@@ -105,9 +93,11 @@ A web-based app to eliminate physical queues. Customers join virtual queues remo
 
 <br>
 
+---
+
 <!-- GitHub Stats -->
 
-## GitHub Stats
+## `$ git log --stat`
 
 <div align="center">
 
