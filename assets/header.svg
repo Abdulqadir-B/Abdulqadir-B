@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 320" width="100%">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes fadeIn1 {
+        0%, 5% { opacity: 0; transform: translateY(6px); }
+        20%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn2 {
+        0%, 20% { opacity: 0; transform: translateY(6px); }
+        40%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn3 {
+        0%, 40% { opacity: 0; transform: translateY(6px); }
+        60%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn4 {
+        0%, 55% { opacity: 0; transform: translateY(6px); }
+        75%, 100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn5 {
+        0%, 70% { opacity: 0; }
+        90%, 100% { opacity: 1; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(320px); }
+      }
+      .cursor { animation: blink 1s step-end infinite; }
+      .l1 { animation: fadeIn1 2.5s ease-out both; }
+      .l2 { animation: fadeIn2 2.5s ease-out both; }
+      .l3 { animation: fadeIn3 2.5s ease-out both; }
+      .l4 { animation: fadeIn4 2.5s ease-out both; }
+      .l5 { animation: fadeIn5 2.5s ease-out both; }
+      .mono { font-family: 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier New',monospace; }
+    </style>
+    <!-- Subtle noise texture -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply" result="blend"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.03"/>
+      </feComponentTransfer>
+      <feComposite in="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Terminal outer shadow -->
+  <rect x="4" y="4" width="832" height="312" rx="14" fill="#010409" opacity="0.6"/>
+
+  <!-- Terminal background -->
+  <rect width="832" height="308" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5" x="4" y="4"/>
+
+  <!-- CRT scanline overlay (very subtle) -->
+  <rect x="4" y="4" width="832" height="308" rx="12" fill="url(#scanlinePattern)" opacity="0.02"/>
+
+  <!-- Title bar background -->
+  <rect x="4" y="4" width="832" height="40" rx="12" fill="#161b22"/>
+  <rect x="4" y="32" width="832" height="12" fill="#161b22"/>
+
+  <!-- Traffic light buttons -->
+  <circle cx="28" cy="24" r="7" fill="#ff5f57"/>
+  <circle cx="52" cy="24" r="7" fill="#febc2e"/>
+  <circle cx="76" cy="24" r="7" fill="#28c840"/>
+
+  <!-- Traffic light gloss -->
+  <circle cx="27" cy="22" r="3" fill="#ff8a80" opacity="0.4"/>
+  <circle cx="51" cy="22" r="3" fill="#ffe082" opacity="0.4"/>
+  <circle cx="75" cy="22" r="3" fill="#69f0ae" opacity="0.4"/>
+
+  <!-- Terminal title -->
+  <text x="420" y="29" text-anchor="middle" fill="#8b949e" class="mono" font-size="12.5">
+    abdulqadir@github ~ zsh
+  </text>
+
+  <!-- Separator line -->
+  <line x1="4" y1="44" x2="836" y2="44" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- LINE 1: whoami command -->
+  <g class="l1">
+    <text x="32" y="76" class="mono" font-size="14">
+      <tspan fill="#7ee787">$</tspan>
+      <tspan fill="#e6edf3"> whoami</tspan>
+    </text>
+  </g>
+
+  <!-- LINE 2: Name output (large) -->
+  <g class="l2">
+    <text x="32" y="114" fill="#58a6ff" class="mono" font-size="28" font-weight="bold" letter-spacing="0.5">
+      Abdul Qadir BearingWala
+    </text>
+    <!-- Decorative underline -->
+    <line x1="32" y1="124" x2="530" y2="124" stroke="#1f6feb" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- LINE 3: cat command -->
+  <g class="l3">
+    <text x="32" y="156" class="mono" font-size="14">
+      <tspan fill="#7ee787">$</tspan>
+      <tspan fill="#e6edf3"> cat /dev/stack</tspan>
+    </text>
+  </g>
+
+  <!-- LINE 4: Stack info (neofetch-style) -->
+  <g class="l4">
+    <!-- Left column - AQ pixel art -->
+    <rect x="32" y="172" width="8" height="28" rx="1" fill="#58a6ff" opacity="0.9"/>
+    <rect x="44" y="172" width="20" height="8" rx="1" fill="#58a6ff" opacity="0.9"/>
+    <rect x="64" y="172" width="8" height="28" rx="1" fill="#58a6ff" opacity="0.9"/>
+    <rect x="44" y="190" width="20" height="8" rx="1" fill="#58a6ff" opacity="0.7"/>
+
+    <rect x="82" y="172" width="8" height="28" rx="1" fill="#7ee787" opacity="0.9"/>
+    <rect x="94" y="172" width="20" height="8" rx="1" fill="#7ee787" opacity="0.9"/>
+    <rect x="114" y="172" width="8" height="34" rx="1" fill="#7ee787" opacity="0.9"/>
+    <rect x="94" y="196" width="20" height="8" rx="1" fill="#7ee787" opacity="0.7"/>
+    <rect x="108" y="204" width="16" height="6" rx="1" fill="#7ee787" opacity="0.5"/>
+
+    <!-- Right column - System info -->
+    <text x="148" y="182" class="mono" font-size="13">
+      <tspan fill="#f0883e">role</tspan>
+      <tspan fill="#6e7681"> ~> </tspan>
+      <tspan fill="#e6edf3">Web Developer</tspan>
+    </text>
+    <text x="148" y="200" class="mono" font-size="13">
+      <tspan fill="#f0883e">lang</tspan>
+      <tspan fill="#6e7681"> ~> </tspan>
+      <tspan fill="#e6edf3">JavaScript · TypeScript · Python</tspan>
+    </text>
+    <text x="148" y="218" class="mono" font-size="13">
+      <tspan fill="#f0883e">stack</tspan>
+      <tspan fill="#6e7681"> ~> </tspan>
+      <tspan fill="#e6edf3">React · Node.js · Express · MongoDB</tspan>
+    </text>
+    <text x="148" y="236" class="mono" font-size="13">
+      <tspan fill="#f0883e">tools</tspan>
+      <tspan fill="#6e7681"> ~> </tspan>
+      <tspan fill="#e6edf3">Git · VS Code · Next.js · Vercel</tspan>
+    </text>
+    <text x="148" y="254" class="mono" font-size="13">
+      <tspan fill="#f0883e">motto</tspan>
+      <tspan fill="#6e7681"> ~> </tspan>
+      <tspan fill="#c9d1d9" font-style="italic">"Building thoughtful web experiences"</tspan>
+    </text>
+
+    <!-- Color palette blocks -->
+    <rect x="148" y="266" width="16" height="12" rx="2" fill="#ff5f57"/>
+    <rect x="168" y="266" width="16" height="12" rx="2" fill="#febc2e"/>
+    <rect x="188" y="266" width="16" height="12" rx="2" fill="#28c840"/>
+    <rect x="208" y="266" width="16" height="12" rx="2" fill="#58a6ff"/>
+    <rect x="228" y="266" width="16" height="12" rx="2" fill="#bc8cff"/>
+    <rect x="248" y="266" width="16" height="12" rx="2" fill="#f0883e"/>
+    <rect x="268" y="266" width="16" height="12" rx="2" fill="#f778ba"/>
+    <rect x="288" y="266" width="16" height="12" rx="2" fill="#3fb950"/>
+  </g>
+
+  <!-- LINE 5: New prompt with blinking cursor -->
+  <g class="l5">
+    <text x="32" y="298" fill="#7ee787" class="mono" font-size="14">$</text>
+    <rect x="48" y="285" width="10" height="17" rx="2" fill="#58a6ff" class="cursor"/>
+  </g>
+</svg>

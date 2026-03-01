@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 110" width="100%">
+  <defs>
+    <style>
+      @keyframes pulse1 {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 1; }
+      }
+      @keyframes pulse2 {
+        0%, 100% { opacity: 0.25; }
+        60% { opacity: 1; }
+      }
+      @keyframes pulse3 {
+        0%, 100% { opacity: 0.25; }
+        70% { opacity: 1; }
+      }
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .d1 { animation: pulse1 2.4s ease-in-out infinite; }
+      .d2 { animation: pulse2 2.4s ease-in-out 0.4s infinite; }
+      .d3 { animation: pulse3 2.4s ease-in-out 0.8s infinite; }
+      .blink { animation: cursorBlink 1.2s step-end infinite; }
+      .mono { font-family: 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier New',monospace; }
+    </style>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="20%" stop-color="#30363d" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#30363d" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="110" fill="#0d1117"/>
+
+  <!-- Decorative gradient line -->
+  <line x1="0" y1="12" x2="840" y2="12" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <!-- Exit message -->
+  <text x="420" y="48" text-anchor="middle" class="mono" font-size="13">
+    <tspan fill="#7ee787">$</tspan>
+    <tspan fill="#e6edf3"> echo </tspan>
+    <tspan fill="#a5d6ff">"Thanks for stopping by!"</tspan>
+    <tspan fill="#8b949e"> &amp;&amp; </tspan>
+    <tspan fill="#e6edf3">exit</tspan>
+  </text>
+
+  <!-- Process status -->
+  <text x="420" y="72" text-anchor="middle" fill="#484f58" class="mono" font-size="11">
+    [Process exited with code 0]  —  Built with JavaScript &amp; lots of coffee
+  </text>
+
+  <!-- Pulsing status dots -->
+  <circle cx="396" cy="95" r="3.5" fill="#3fb950" class="d1"/>
+  <circle cx="416" cy="95" r="3.5" fill="#3fb950" class="d2"/>
+  <circle cx="436" cy="95" r="3.5" fill="#3fb950" class="d3"/>
+</svg>

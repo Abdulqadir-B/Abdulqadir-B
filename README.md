@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Abdul%20Qadir%20BearingWala&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Building%20thoughtful%20web%20experiences%20with%20clean%20code&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="./assets/header.svg" width="100%" alt="Terminal: Abdul Qadir BearingWala - Web Developer" />
 
 <!-- Typing Animation -->
 
@@ -120,6 +120,6 @@ A web-based app to eliminate physical queues. Customers join virtual queues remo
 <!-- Footer -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" alt="Terminal: Thanks for stopping by!" />
 
 </div>
