@@ -73,7 +73,7 @@
   <circle cx="75" cy="22" r="3" fill="#69f0ae" opacity="0.4"/>
 
   <!-- Terminal title -->
-  <text x="420" y="29" text-anchor="middle" fill="#8b949e" class="mono" font-size="12.5">
+  <text x="420" y="29" text-anchor="middle" fill="#8b949e" class="mono" font-size="15">
     abdulqadir@github ~ zsh
   </text>
 
@@ -82,7 +82,7 @@
 
   <!-- LINE 1: whoami command -->
   <g class="l1">
-    <text x="32" y="76" class="mono" font-size="14">
+    <text x="32" y="76" class="mono" font-size="16">
       <tspan fill="#7ee787">$</tspan>
       <tspan fill="#e6edf3"> whoami</tspan>
     </text>
@@ -99,7 +99,7 @@
 
   <!-- LINE 3: cat command -->
   <g class="l3">
-    <text x="32" y="156" class="mono" font-size="14">
+    <text x="32" y="156" class="mono" font-size="16">
       <tspan fill="#7ee787">$</tspan>
       <tspan fill="#e6edf3"> cat /dev/stack</tspan>
     </text>
@@ -120,27 +120,27 @@
     <rect x="108" y="204" width="16" height="6" rx="1" fill="#7ee787" opacity="0.5"/>
 
     <!-- Right column - System info -->
-    <text x="148" y="182" class="mono" font-size="13">
+    <text x="148" y="182" class="mono" font-size="15">
       <tspan fill="#f0883e">role</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
       <tspan fill="#e6edf3">Web Developer</tspan>
     </text>
-    <text x="148" y="200" class="mono" font-size="13">
+    <text x="148" y="200" class="mono" font-size="15">
       <tspan fill="#f0883e">lang</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
       <tspan fill="#e6edf3">JavaScript · TypeScript · Python</tspan>
     </text>
-    <text x="148" y="218" class="mono" font-size="13">
+    <text x="148" y="218" class="mono" font-size="15">
       <tspan fill="#f0883e">stack</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
       <tspan fill="#e6edf3">React · Node.js · Express · MongoDB</tspan>
     </text>
-    <text x="148" y="236" class="mono" font-size="13">
+    <text x="148" y="236" class="mono" font-size="15">
       <tspan fill="#f0883e">tools</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
       <tspan fill="#e6edf3">Git · VS Code · Next.js · Vercel</tspan>
     </text>
-    <text x="148" y="254" class="mono" font-size="13">
+    <text x="148" y="254" class="mono" font-size="15">
       <tspan fill="#f0883e">motto</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
       <tspan fill="#c9d1d9" font-style="italic">"Building thoughtful web experiences"</tspan>
@@ -159,7 +159,7 @@
 
   <!-- LINE 5: New prompt with blinking cursor -->
   <g class="l5">
-    <text x="32" y="298" fill="#7ee787" class="mono" font-size="14">$</text>
+    <text x="32" y="298" fill="#7ee787" class="mono" font-size="16">$</text>
     <rect x="48" y="285" width="10" height="17" rx="2" fill="#58a6ff" class="cursor"/>
   </g>
 </svg>

@@ -40,7 +40,7 @@
   <line x1="0" y1="12" x2="840" y2="12" stroke="url(#lineGrad)" stroke-width="1"/>
 
   <!-- Exit message -->
-  <text x="420" y="48" text-anchor="middle" class="mono" font-size="13">
+  <text x="420" y="48" text-anchor="middle" class="mono" font-size="16">
     <tspan fill="#7ee787">$</tspan>
     <tspan fill="#e6edf3"> echo </tspan>
     <tspan fill="#a5d6ff">"Thanks for stopping by!"</tspan>
@@ -49,7 +49,7 @@
   </text>
 
   <!-- Process status -->
-  <text x="420" y="72" text-anchor="middle" fill="#484f58" class="mono" font-size="11">
+  <text x="420" y="72" text-anchor="middle" fill="#484f58" class="mono" font-size="13">
     [Process exited with code 0]  —  Built with JavaScript &amp; lots of coffee
   </text>
 
