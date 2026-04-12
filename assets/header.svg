@@ -91,7 +91,7 @@
   <!-- LINE 2: Name output (large) -->
   <g class="l2">
     <text x="32" y="114" fill="#58a6ff" class="mono" font-size="28" font-weight="bold" letter-spacing="0.5">
-      Abdul Qadir BearingWala
+      Abdul Qadir Bearingwala
     </text>
     <!-- Decorative underline -->
     <line x1="32" y1="124" x2="530" y2="124" stroke="#1f6feb" stroke-width="2" opacity="0.6"/>
@@ -126,24 +126,24 @@
       <tspan fill="#e6edf3">Web Developer</tspan>
     </text>
     <text x="148" y="200" class="mono" font-size="15">
-      <tspan fill="#f0883e">lang</tspan>
+      <tspan fill="#f0883e">languages</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
-      <tspan fill="#e6edf3">JavaScript · TypeScript · Python</tspan>
+      <tspan fill="#e6edf3">JavaScript · C++ · Python</tspan>
     </text>
     <text x="148" y="218" class="mono" font-size="15">
-      <tspan fill="#f0883e">stack</tspan>
+      <tspan fill="#f0883e">frameworks</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
-      <tspan fill="#e6edf3">React · Node.js · Express · MongoDB</tspan>
+      <tspan fill="#e6edf3">React · Next.js · Node.js · Express</tspan>
     </text>
     <text x="148" y="236" class="mono" font-size="15">
-      <tspan fill="#f0883e">tools</tspan>
+      <tspan fill="#f0883e">databases</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
-      <tspan fill="#e6edf3">Git · VS Code · Next.js · Vercel</tspan>
+      <tspan fill="#e6edf3">MongoDB · MySQL</tspan>
     </text>
     <text x="148" y="254" class="mono" font-size="15">
-      <tspan fill="#f0883e">motto</tspan>
+      <tspan fill="#f0883e">tools</tspan>
       <tspan fill="#6e7681"> ~> </tspan>
-      <tspan fill="#c9d1d9" font-style="italic">"Building thoughtful web experiences"</tspan>
+      <tspan fill="#e6edf3">Git · GitHub · VS Code · Vercel · Netlify · Supabase</tspan>
     </text>
 
     <!-- Color palette blocks -->

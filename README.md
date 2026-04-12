@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="./assets/header.svg" width="100%" alt="Terminal: Abdul Qadir BearingWala - Web Developer" />
+<img src="./assets/header.svg" width="100%" alt="Terminal: Abdul Qadir Bearingwala - Web Developer" />
 
 </div>
 
@@ -15,19 +15,23 @@
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=cpp,python,js&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,cpp,python&theme=dark" />
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react,nextjs&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind&theme=dark" />
 
-**Backend & Database**
+**Frameworks**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express&theme=dark" />
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark" />
 
 **Tools & Platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,netlify,supabase&theme=dark" />
 
 </div>
 
