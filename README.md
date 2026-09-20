@@ -2,7 +2,7 @@
 
 Software developer building practical full-stack products with clean, responsive interfaces.
 
-[Portfolio](https://abdulqadir-bearingwala.vercel.app/) · [LinkedIn](#) · [Email](mailto:your-email@example.com) · [Resume](#)
+[Portfolio](https://abdulqadir-bearingwala.vercel.app/) · [LinkedIn](#) · [LeetCode](https://leetcode.com/u/Abdulqadir_B/) · [Email](mailto:your-email@example.com)
 
 ## Projects
 
@@ -17,6 +17,8 @@ Real-time virtual queue management for hospitals, banks, and public offices. [Li
 ### [Space Explorer](https://spacelens.vercel.app)
 
 Explore NASA images, astronomy data, asteroids, and space missions. [Live Demo](https://spacelens.vercel.app) · [Repository](https://github.com/Abdulqadir-B/space-explorer)
+
+More projects are pinned on my [GitHub profile](https://github.com/Abdulqadir-B).
 
 ## Tech
 
