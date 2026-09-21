@@ -2,7 +2,7 @@
 
 Software developer building practical full-stack products with clean, responsive interfaces.
 
-[Portfolio](https://abdulqadir-bearingwala.vercel.app/) · [LinkedIn](https://linkedin.com/in/abdulqadir-bearingwala) · [LeetCode](https://leetcode.com/u/Abdulqadir_B/) · [Email](mailto:your-email@example.com)
+[Portfolio](https://abdulqadir-bearingwala.vercel.app/)  ·  [LinkedIn](https://linkedin.com/in/abdulqadir-bearingwala)  ·  [LeetCode](https://leetcode.com/u/Abdulqadir_B/)  ·  [Email](mailto:your-email@example.com)
 
 ## Projects
 
@@ -18,11 +18,11 @@ Real-time virtual queue management for hospitals, banks, and public offices. [Li
 
 Explore NASA images, astronomy data, asteroids, and space missions. [Live Demo](https://spacelens.vercel.app) · [Repository](https://github.com/Abdulqadir-B/space-explorer)
 
-## Tech
+## Skills
 
-**Languages:** JavaScript | C++ | Python  
-**Frontend:** HTML | CSS | Bootstrap | Tailwind CSS  
-**Backend:** Node.js | Express  
-**Frameworks:** React | Next.js  
-**Databases:** MongoDB | MySQL  
-**Tools:** Git | GitHub | VS Code | Vercel | Netlify | Supabase
+**Languages:** JavaScript  ·  C++  ·  Python  
+**Frontend:** HTML  ·  CSS  ·  Bootstrap  ·  Tailwind CSS  
+**Backend:** Node.js  ·  Express  
+**Frameworks:** React  ·  Next.js  
+**Databases:** MongoDB  ·  MySQL  
+**Tools:** Git  ·  GitHub  ·  VS Code  ·  Vercel  ·  Netlify  ·  Supabase
