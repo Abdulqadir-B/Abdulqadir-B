@@ -2,7 +2,7 @@
 
 Software developer building practical full-stack products with clean, responsive interfaces.
 
-[Portfolio](https://abdulqadir-bearingwala.vercel.app/)  ·  [LinkedIn](https://linkedin.com/in/abdulqadir-bearingwala)  ·  [LeetCode](https://leetcode.com/u/Abdulqadir_B/)  ·  [Email](mailto:your-email@example.com)
+[Portfolio](https://abdulqadir-bearingwala.vercel.app/)&nbsp;&nbsp;·&nbsp;&nbsp;[LinkedIn](https://linkedin.com/in/abdulqadir-bearingwala)&nbsp;&nbsp;·&nbsp;&nbsp;[LeetCode](https://leetcode.com/u/Abdulqadir_B/)&nbsp;&nbsp;·&nbsp;&nbsp;[Email](mailto:your-email@example.com)
 
 ## Projects
 
@@ -20,9 +20,9 @@ Explore NASA images, astronomy data, asteroids, and space missions. [Live Demo](
 
 ## Skills
 
-**Languages:** JavaScript  ·  C++  ·  Python  
-**Frontend:** HTML  ·  CSS  ·  Bootstrap  ·  Tailwind CSS  
-**Backend:** Node.js  ·  Express  
-**Frameworks:** React  ·  Next.js  
-**Databases:** MongoDB  ·  MySQL  
-**Tools:** Git  ·  GitHub  ·  VS Code  ·  Vercel  ·  Netlify  ·  Supabase
+**Languages:** JavaScript&nbsp;&nbsp;·&nbsp;&nbsp;C++&nbsp;&nbsp;·&nbsp;&nbsp;Python  
+**Frontend:** HTML&nbsp;&nbsp;·&nbsp;&nbsp;CSS&nbsp;&nbsp;·&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;·&nbsp;&nbsp;Tailwind CSS  
+**Backend:** Node.js&nbsp;&nbsp;·&nbsp;&nbsp;Express  
+**Frameworks:** React&nbsp;&nbsp;·&nbsp;&nbsp;Next.js  
+**Databases:** MongoDB&nbsp;&nbsp;·&nbsp;&nbsp;MySQL  
+**Tools:** Git&nbsp;&nbsp;·&nbsp;&nbsp;GitHub&nbsp;&nbsp;·&nbsp;&nbsp;VS Code&nbsp;&nbsp;·&nbsp;&nbsp;Vercel&nbsp;&nbsp;·&nbsp;&nbsp;Netlify&nbsp;&nbsp;·&nbsp;&nbsp;Supabase
